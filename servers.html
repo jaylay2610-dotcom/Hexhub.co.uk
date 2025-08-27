@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servers — HexHub</title>
+  <meta name="description" content="HexHub gaming community">
+  <link rel="icon" href="assets/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="HexHub logo" class="brand-logo">
+        <span>HexHub</span>
+      </a>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="servers.html">Servers</a>
+        <a href="community.html">Community</a>
+        <a href="hextools.html">HexTools</a>
+        <a href="join.html" class="btn btn-primary">Join</a>
+      </nav>
+      <button class="hamburger" aria-label="Open menu" id="menuBtn">☰</button>
+    </div>
+  </header>
+  <div id="navBackdrop" class="nav-backdrop"></div>
+  
+  <main><section class="section container">
+    <div class="section-header"><h2>Our Servers</h2><p>We rotate seasonal worlds and special events. Here's what's active.</p></div>
+    <div class="servers">
+      <div class="server-card"><h3>Palworld</h3><p>Status: <span class="badge neutral">Unknown</span></p><p class="muted">Hook up the Nitrado API in <code>script.js</code> or a Netlify function for live stats.</p></div>
+      <div class="server-card"><h3>ARK</h3><p>Status: <span class="badge neutral">Unknown</span></p></div>
+      <div class="server-card"><h3>ETS2 Convoys</h3><p>Weekly community runs. Routes in Discord.</p></div>
+    </div>
+  </section></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-row">
+          <img src="assets/logo.png" alt="HexHub logo" class="brand-logo sm">
+          <strong>HexHub</strong>
+        </div>
+        <p class="muted">© <span id="year"></span> HexHub. All rights reserved.</p>
+      </div>
+      <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="servers.html">Servers</a>
+        <a href="community.html">Community</a>
+        <a href="hextools.html">HexTools</a>
+      </nav>
+      <div class="footer-actions">
+        <a class="btn btn-ghost" href="mailto:contact@hexhub.co.uk">Email us</a>
+        <a class="btn btn-primary" href="https://discord.gg/yGSkFQajjU" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
